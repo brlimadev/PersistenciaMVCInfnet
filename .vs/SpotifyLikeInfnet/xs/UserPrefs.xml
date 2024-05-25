@@ -1,0 +1,5 @@
+﻿<Properties StartupConfiguration="{A98E39D2-95FE-45A9-8DCF-61B3EC760273}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.ItemProperties.SpotifyLike.Tests.Domain PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SpotifyLike.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
