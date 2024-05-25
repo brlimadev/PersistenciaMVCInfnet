@@ -1,0 +1,21 @@
+Aula 01 - Persistencia MVC
+
+------------------------------------------------------------- 11:00
+Criando o Administrativo um MVC
+
+Direito novo projeto >>
+ASP NET CORE Web APP Model View Controller >>
+SpotifyLike.Admin
+
+
+------------------------------------------------------------- 18:00
+Configurar o appsettings.json do projeto Admin
+
+"AllowedHosts": "*",
+  "ConnectionStrings": {
+    "SpotifyConnection": "Data Source=localhost;Initial Catalog=SpotifyDatabase;MultiSubnetFailover=True;TrustServerCertificate=True; User ID = sa; Password=myPassw0rd"
+  }
+
+
+------------------------------------------------------------- 19:00
+Vão aparecer dois projetos de output ou seja projeto de inicializacao seleciona o admin
