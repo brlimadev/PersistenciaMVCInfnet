@@ -1,10 +1,7 @@
-/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/.commitlintrc.json
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/appsettings.Development.json
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/appsettings.json
-/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/composer.json
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/package-lock.json
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/package.json
-/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/renovate.json
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/SpotifyLike.Api
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/SpotifyLike.Api.deps.json
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/SpotifyLike.Api.runtimeconfig.json
@@ -87,3 +84,6 @@
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/obj/Debug/net7.0/SpotifyLike.Api.pdb
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/obj/Debug/net7.0/SpotifyLike.Api.genruntimeconfig.cache
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/obj/Debug/net7.0/ref/SpotifyLike.Api.dll
+/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Swagger/.commitlintrc.json
+/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Swagger/composer.json
+/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Swagger/renovate.json

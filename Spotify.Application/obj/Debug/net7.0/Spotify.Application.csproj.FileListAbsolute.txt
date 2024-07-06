@@ -10,8 +10,8 @@
 /Users/brunolima/Projects/PersistenciaMVCInfnet/Spotify.Application/obj/Debug/net7.0/Spotify.Application.AssemblyInfoInputs.cache
 /Users/brunolima/Projects/PersistenciaMVCInfnet/Spotify.Application/obj/Debug/net7.0/Spotify.Application.AssemblyInfo.cs
 /Users/brunolima/Projects/PersistenciaMVCInfnet/Spotify.Application/obj/Debug/net7.0/Spotify.Application.csproj.CoreCompileInputs.cache
-/Users/brunolima/Projects/PersistenciaMVCInfnet/Spotify.Application/obj/Debug/net7.0/Spotify.Application.csproj.CopyComplete
 /Users/brunolima/Projects/PersistenciaMVCInfnet/Spotify.Application/obj/Debug/net7.0/Spotify.Application.dll
 /Users/brunolima/Projects/PersistenciaMVCInfnet/Spotify.Application/obj/Debug/net7.0/refint/Spotify.Application.dll
 /Users/brunolima/Projects/PersistenciaMVCInfnet/Spotify.Application/obj/Debug/net7.0/Spotify.Application.pdb
 /Users/brunolima/Projects/PersistenciaMVCInfnet/Spotify.Application/obj/Debug/net7.0/ref/Spotify.Application.dll
+/Users/brunolima/Projects/PersistenciaMVCInfnet/Spotify.Application/obj/Debug/net7.0/Spotify.Application.csproj.CopyComplete

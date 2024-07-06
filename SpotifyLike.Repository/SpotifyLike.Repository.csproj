@@ -20,4 +20,15 @@
     <ProjectReference Include="..\SpotifyLike.Domain\SpotifyLike.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Mapping\Admin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Mapping\Admin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="MigrationAdmin\20240706202221_NomeDaBaseInicial2.cs" />
+    <Compile Remove="MigrationAdmin\20240706202221_NomeDaBaseInicial2.Designer.cs" />
+    <Compile Remove="MigrationAdmin\SpotifyLikeAdminContextModelSnapshot.cs" />
+  </ItemGroup>
 </Project>

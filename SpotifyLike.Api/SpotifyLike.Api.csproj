@@ -32,8 +32,10 @@
 
   <ItemGroup>
     <None Remove="Controllers\Request\" />
+    <None Remove="Swagger\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\Request\" />
+    <Folder Include="Swagger\" />
   </ItemGroup>
 </Project>
