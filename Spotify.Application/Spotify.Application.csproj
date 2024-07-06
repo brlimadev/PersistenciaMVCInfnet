@@ -15,4 +15,14 @@
     <ProjectReference Include="..\SpotifyLike.Repository\SpotifyLike.Repository.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Admin\" />
+    <None Remove="Admin\DTO\" />
+    <None Remove="Admin\Profile\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Admin\" />
+    <Folder Include="Admin\DTO\" />
+    <Folder Include="Admin\Profile\" />
+  </ItemGroup>
 </Project>

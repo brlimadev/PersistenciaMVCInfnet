@@ -9,4 +9,4 @@
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Domain/obj/Debug/net7.0/refint/SpotifyLike.Domain.dll
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Domain/obj/Debug/net7.0/SpotifyLike.Domain.pdb
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Domain/obj/Debug/net7.0/ref/SpotifyLike.Domain.dll
-/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Domain/obj/Debug/net7.0/SpotifyLike.Domain.sourcelink.json
+/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Domain/obj/Debug/net7.0/SpotifyLike.Domain.csproj.AssemblyReference.cache
