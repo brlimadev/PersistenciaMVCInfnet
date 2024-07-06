@@ -1,4 +1,6 @@
 ﻿using System;
+using SpotifyLike.Domain.Core.Extension;
+
 namespace SpotifyLike.Domain.Admin.Aggregates
 {
 	public class UsuarioAdmin
@@ -9,6 +11,13 @@ namespace SpotifyLike.Domain.Admin.Aggregates
 		public String Password { get; set; }
 		public Perfil Perfil { get; set; }
 
-	}
+
+
+        public void CriptografarSenha()
+        {
+            this.Password = this.Password.HashSHA256();
+        }
+
+    }
 }
 

@@ -6,7 +6,7 @@ namespace SpotifyLike.Repository.Repository
 {
 	public class UsuarioAdminRepository : RepositoryBase<UsuarioAdmin>
     {
-		public UsuarioAdminRepository(SpotifyLikeContext context) : base(context)
+		public UsuarioAdminRepository(SpotifyLikeAdminContext context) : base(context)
         {
         }
     }

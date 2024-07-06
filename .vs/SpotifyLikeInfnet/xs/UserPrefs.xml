@@ -1,27 +1,28 @@
-﻿<Properties StartupConfiguration="{AE5DC4F6-A0CF-465B-817F-F90EDFE33837}|https" GitUserInfo="UsingGIT">
+﻿<Properties StartupConfiguration="{1CC72137-F150-4358-B070-F8256E2BF035}|https" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.ItemProperties.SpotifyLike.Tests.Domain PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.SpotifyLike.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PersistenciaMVCAula1.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SpotifyLike.Repository/Repository/SpotifyLikeContext.cs">
     <Files>
-      <File FileName="PersistenciaMVCAula1.txt" Line="129" Column="1" IsPinned="True" />
       <File FileName="SpotifyLike.Api/appsettings.json" />
-      <File FileName="SpotifyLike.Admin/Views/User/Index.cshtml" />
-      <File FileName="SpotifyLike.Admin/Views/_ViewImports.cshtml" />
-      <File FileName="SpotifyLike.Admin/Program.cs" />
-      <File FileName="SpotifyLike.Admin/Views/Shared/_Layout.cshtml" />
-      <File FileName="SpotifyLike.Domain/Admin/Aggregates/UsuarioAdmin.cs" />
-      <File FileName="SpotifyLike.Domain/Admin/Aggregates/Perfil.cs" />
+      <File FileName="SpotifyLike.Repository/Repository/SpotifyLikeContext.cs" Line="25" Column="49" />
+      <File FileName="SpotifyLike.Repository/Mapping/Conta/AssinaturaMapping.cs" />
+      <File FileName="SpotifyLike.Repository/Repository/BandaRepository.cs" />
+      <File FileName="SpotifyLike.Api/Program.cs" />
+      <File FileName="Aula07.txt" />
+      <File FileName="PassoAPasso.txt" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SpotifyLikeInfnet" expanded="True">
-            <Node name="SpotifyLike.Repository" expanded="True">
-              <Node name="Mapping" expanded="True" />
-            </Node>
+            <Node name="PassoAPasso" expanded="True" />
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="SpotifyLikeInfnet" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
