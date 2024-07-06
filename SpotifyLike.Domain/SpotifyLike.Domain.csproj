@@ -8,8 +8,12 @@
 
   <ItemGroup>
     <None Remove="Core\Extensions\" />
+    <None Remove="Admin\" />
+    <None Remove="Admin\Aggregates\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Core\Extensions\" />
+    <Folder Include="Admin\" />
+    <Folder Include="Admin\Aggregates\" />
   </ItemGroup>
 </Project>

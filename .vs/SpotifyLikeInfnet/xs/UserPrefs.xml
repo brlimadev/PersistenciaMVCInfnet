@@ -1,6 +1,34 @@
-﻿<Properties StartupConfiguration="{A98E39D2-95FE-45A9-8DCF-61B3EC760273}|Default" GitUserInfo="UsingGIT">
+﻿<Properties StartupConfiguration="{AE5DC4F6-A0CF-465B-817F-F90EDFE33837}|https" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.ItemProperties.SpotifyLike.Tests.Domain PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.SpotifyLike.Admin FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.SpotifyLike.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PersistenciaMVCAula1.txt">
+    <Files>
+      <File FileName="PersistenciaMVCAula1.txt" Line="129" Column="1" IsPinned="True" />
+      <File FileName="SpotifyLike.Api/appsettings.json" />
+      <File FileName="SpotifyLike.Admin/Views/User/Index.cshtml" />
+      <File FileName="SpotifyLike.Admin/Views/_ViewImports.cshtml" />
+      <File FileName="SpotifyLike.Admin/Program.cs" />
+      <File FileName="SpotifyLike.Admin/Views/Shared/_Layout.cshtml" />
+      <File FileName="SpotifyLike.Domain/Admin/Aggregates/UsuarioAdmin.cs" />
+      <File FileName="SpotifyLike.Domain/Admin/Aggregates/Perfil.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SpotifyLikeInfnet" expanded="True">
+            <Node name="SpotifyLike.Repository" expanded="True">
+              <Node name="Mapping" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.SpotifyLike.Admin PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
