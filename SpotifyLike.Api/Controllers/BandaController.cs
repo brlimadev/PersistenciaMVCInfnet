@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using System.Data;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Spotify.Application.Streaming;
 using Spotify.Application.Streaming.Dto;
@@ -9,6 +11,8 @@ namespace SpotifyLike.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Roles = "spotifylike-user")]
+
     public class BandaController : ControllerBase
     {
         private BandaService _bandaService;
@@ -25,6 +29,8 @@ namespace SpotifyLike.Api.Controllers
 
             return Ok(result);
         }
+
+        [AllowAnonymous]
 
         [HttpGet("{id}")]
         public IActionResult GetBandas(Guid id)
