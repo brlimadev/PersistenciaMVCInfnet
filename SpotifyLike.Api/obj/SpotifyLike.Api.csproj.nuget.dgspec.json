@@ -116,6 +116,10 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0, )"

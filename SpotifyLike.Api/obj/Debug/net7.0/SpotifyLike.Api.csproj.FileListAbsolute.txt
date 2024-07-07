@@ -2,6 +2,9 @@
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/appsettings.json
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/package-lock.json
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/package.json
+/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Swagger/.commitlintrc.json
+/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Swagger/composer.json
+/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Swagger/renovate.json
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/SpotifyLike.Api
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/SpotifyLike.Api.deps.json
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/SpotifyLike.Api.runtimeconfig.json
@@ -12,6 +15,10 @@
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Azure.Identity.dll
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Castle.Core.dll
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Humanizer.dll
+/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/IdentityModel.dll
+/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/IdentityModel.AspNetCore.OAuth2Introspection.dll
+/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/IdentityServer4.AccessTokenValidation.dll
+/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
@@ -33,6 +40,7 @@
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Newtonsoft.Json.dll
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -84,6 +92,3 @@
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/obj/Debug/net7.0/SpotifyLike.Api.pdb
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/obj/Debug/net7.0/SpotifyLike.Api.genruntimeconfig.cache
 /Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/obj/Debug/net7.0/ref/SpotifyLike.Api.dll
-/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Swagger/.commitlintrc.json
-/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Swagger/composer.json
-/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Api/bin/Debug/net7.0/Swagger/renovate.json

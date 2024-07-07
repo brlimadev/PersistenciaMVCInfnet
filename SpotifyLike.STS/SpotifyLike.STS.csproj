@@ -21,9 +21,16 @@
   <ItemGroup>
     <None Remove="Data\" />
     <None Remove="Model\" />
+    <None Remove="GrantType\" />
+    <None Remove="ProfileService\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Model\" />
+    <Folder Include="GrantType\" />
+    <Folder Include="ProfileService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Controllers\WeatherForecastController.cs" />
   </ItemGroup>
 </Project>

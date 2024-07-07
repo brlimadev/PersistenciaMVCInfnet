@@ -1,5 +1,10 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using IdentityServer4.Services;
+using IdentityServer4.Validation;
+using Microsoft.Extensions.DependencyInjection;
+using SpotifyLike.STS;
 using SpotifyLike.STS.Data;
+using SpotifyLike.STS.GrantType;
+using SpotifyLike.STS.ProfileService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +16,16 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.Configure<DatabaseOption>(builder.Configuration.GetSection("ConnectionStrings"));
+builder.Services.AddScoped<IIdentityRepository, IdentityRepository>();
+
+builder.Services.AddIdentityServer()
+                .AddDeveloperSigningCredential()
+                .AddInMemoryIdentityResources(IdentityServerConfiguration.GetIdentityResource())
+                .AddInMemoryApiResources(IdentityServerConfiguration.GetApiResource())
+                .AddInMemoryApiScopes(IdentityServerConfiguration.GetApiScopes())
+                .AddInMemoryClients(IdentityServerConfiguration.GetClients())
+                .AddProfileService<ProfileService>()
+                .AddResourceOwnerValidator<ResourceOwnerPasswordValidator>();
 
 var app = builder.Build();
 
@@ -22,6 +37,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseIdentityServer();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

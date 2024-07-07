@@ -20,6 +20,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PassoAPasso", "PassoAPasso"
 		PersistenciaMVCAula1.txt = PersistenciaMVCAula1.txt
 		PersistenciaMVCAula2.txt = PersistenciaMVCAula2.txt
 		PersistenciaMVCAula3.txt = PersistenciaMVCAula3.txt
+		PersistenciaMVCAula4.txt = PersistenciaMVCAula4.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyLike.Admin", "SpotifyLike.Admin\SpotifyLike.Admin.csproj", "{1CC72137-F150-4358-B070-F8256E2BF035}"

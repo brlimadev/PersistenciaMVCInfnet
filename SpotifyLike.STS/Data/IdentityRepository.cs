@@ -6,21 +6,21 @@ using SpotifyLike.STS.Model;
 
 namespace SpotifyLike.STS.Data
 {
-	public class IdentityRepository
-	{
-		private readonly string connectionString;
+    public class IdentityRepository : IIdentityRepository
+    {
+        private readonly string connectionString;
 
 
-		public IdentityRepository(IOptions<DatabaseOption> options)
-		{
-			this.connectionString = options.Value.SpotifyConnection;
-		}
+        public IdentityRepository(IOptions<DatabaseOption> options)
+        {
+            this.connectionString = options.Value.SpotifyConnection;
+        }
 
         public async Task<Usuario> FindByIdAsync(Guid id)
         {
             using (var connection = new SqlConnection(this.connectionString))
             {
-                var user = await connection.QueryFirstAsync<Usuario>(IdentityQuery.FindById(), new
+                var user = await connection.QueryFirstOrDefaultAsync<Usuario>(IdentityQuery.FindById(), new
                 {
                     id = id
                 });
@@ -34,7 +34,7 @@ namespace SpotifyLike.STS.Data
         {
             using (var connection = new SqlConnection(this.connectionString))
             {
-                var user = await connection.QueryFirstAsync<Usuario>(IdentityQuery.FindByEmailAndPassword(), new
+                var user = await connection.QueryFirstOrDefaultAsync<Usuario>(IdentityQuery.FindByEmailAndPassword(), new
                 {
                     email = email,
                     senha = password
