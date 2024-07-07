@@ -1,6 +1,7 @@
 ﻿<Properties StartupConfiguration="{1CC72137-F150-4358-B070-F8256E2BF035}|https" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.ItemProperties.SpotifyLike.Tests.Domain PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SpotifyLike.STS FirstBuild="True" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="SpotifyLike.Repository/Repository/SpotifyLikeContext.cs">
     <Files>

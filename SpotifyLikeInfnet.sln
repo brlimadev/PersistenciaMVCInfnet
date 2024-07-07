@@ -24,6 +24,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PassoAPasso", "PassoAPasso"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyLike.Admin", "SpotifyLike.Admin\SpotifyLike.Admin.csproj", "{1CC72137-F150-4358-B070-F8256E2BF035}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyLike.STS", "SpotifyLike.STS\SpotifyLike.STS.csproj", "{1618FDE5-2052-4B7C-8C0D-E7E7A8DAFBA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +56,10 @@ Global
 		{1CC72137-F150-4358-B070-F8256E2BF035}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CC72137-F150-4358-B070-F8256E2BF035}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CC72137-F150-4358-B070-F8256E2BF035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1618FDE5-2052-4B7C-8C0D-E7E7A8DAFBA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1618FDE5-2052-4B7C-8C0D-E7E7A8DAFBA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1618FDE5-2052-4B7C-8C0D-E7E7A8DAFBA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1618FDE5-2052-4B7C-8C0D-E7E7A8DAFBA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
