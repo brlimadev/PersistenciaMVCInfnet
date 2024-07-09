@@ -34,6 +34,7 @@ namespace SpotifyLike.Api.Controllers
             return Ok(result);
         }
 
+        [AllowAnonymous]
         [HttpGet("{id}")]
         public IActionResult Obter(Guid id)
         {

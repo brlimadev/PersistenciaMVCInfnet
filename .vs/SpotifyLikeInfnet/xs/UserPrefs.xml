@@ -11,22 +11,61 @@
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
   <MonoDevelop.Ide.ItemProperties.SpotifyLike.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SpotifyLike.Repository/Repository/SpotifyLikeContext.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SpotifyLike.Api/Controllers/BandaController.cs">
     <Files>
-      <File FileName="SpotifyLike.Api/appsettings.json" />
-      <File FileName="SpotifyLike.Repository/Repository/SpotifyLikeContext.cs" Line="25" Column="49" />
-      <File FileName="SpotifyLike.Repository/Mapping/Conta/AssinaturaMapping.cs" />
-      <File FileName="SpotifyLike.Repository/Repository/BandaRepository.cs" />
-      <File FileName="SpotifyLike.Api/Program.cs" />
-      <File FileName="Aula07.txt" />
-      <File FileName="PassoAPasso.txt" />
+      <File FileName="PersistenciaMVCAula5.txt" Line="21" Column="1" IsPinned="True" />
+      <File FileName="SpotifyLike.STS/Data/IdentityRepository.cs" Line="24" Column="18" />
+      <File FileName="SpotifyLike.STS/Data/IIdentityRepository.cs" Line="10" Column="2" />
+      <File FileName="SpotifyLike.STS/Program.cs" Line="43" Column="1" />
+      <File FileName="SpotifyLike.STS/IdentityServerConfiguration.cs" Line="68" Column="15" />
+      <File FileName="SpotifyLike.STS/GrantType/ResourceOwnerPasswordValidator.cs" Line="26" Column="1" />
+      <File FileName="SpotifyLike.STS/ProfileService/ProfileService.cs" Line="19" Column="7" />
+      <File FileName="SpotifyLike.Domain/Transacao/Aggregates/Cartao.cs" Line="47" Column="1" />
+      <File FileName="SpotifyLike.Domain/Core/ValueObject/Monetario.cs" Line="26" Column="1" />
+      <File FileName="SpotifyLike.Api/Program.cs" Line="34" Column="49" />
+      <File FileName="SpotifyLike.Api/Controllers/UserController.cs" Line="23" Column="1" />
+      <File FileName="SpotifyLike.Api/Controllers/BandaController.cs" Line="17" Column="6" />
+      <File FileName="SpotifyLike.Admin/Controllers/AccountController.cs" Line="58" Column="2" />
+      <File FileName="Spotify.Application/Admin/UsuarioAdminService.cs" Line="45" Column="10" />
+      <File FileName="SpotifyLike.Admin/Models/LoginRequest.cs" Line="14" Column="2" />
+      <File FileName="SpotifyLike.Admin/Program.cs" Line="45" Column="1" />
+      <File FileName="SpotifyLike.Admin/Views/Account/Login.cshtml" Line="24" Column="7" />
+      <File FileName="SpotifyLike.Admin/Views/Shared/_Layout.cshtml" Line="22" Column="33" />
+      <File FileName="Aula07.txt" Line="761" Column="31" />
+      <File FileName="PassoAPasso.txt" Line="106" Column="12" />
+      <File FileName="SpotifyLike.Domain/Conta/Agreggates/Usuario.cs" Line="53" Column="1" />
+      <File FileName="Spotify.Application/Conta/UsuarioService.cs" Line="52" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SpotifyLikeInfnet" expanded="True">
-            <Node name="PassoAPasso" expanded="True" />
+            <Node name="SpotifyLike.Api" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="SpotifyLike.Domain" expanded="True">
+              <Node name="Admin" expanded="True">
+                <Node name="Aggregates" expanded="True" />
+              </Node>
+              <Node name="Conta" expanded="True">
+                <Node name="Agreggates" expanded="True" />
+              </Node>
+              <Node name="Core" expanded="True">
+                <Node name="ValueObject" expanded="True" />
+              </Node>
+              <Node name="Transacao" expanded="True">
+                <Node name="Aggregates" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="SpotifyLike.Repository" expanded="True">
+              <Node name="Repository" expanded="True" />
+            </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="SpotifyLikeInfnet" expanded="True" selected="True" />
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
@@ -37,7 +76,11 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Admin/Controllers/UserController.cs" relfile="SpotifyLike.Admin/Controllers/UserController.cs" line="38" column="9" />
+      <Breakpoint file="/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Domain/Admin/Aggregates/UsuarioAdmin.cs" relfile="SpotifyLike.Domain/Admin/Aggregates/UsuarioAdmin.cs" line="17" column="9" />
+      <Breakpoint file="/Users/brunolima/Projects/PersistenciaMVCInfnet/SpotifyLike.Domain/Transacao/Aggregates/Cartao.cs" relfile="SpotifyLike.Domain/Transacao/Aggregates/Cartao.cs" line="68" column="13" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.SpotifyLike.Admin PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
