@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using Spotify.Application.Admin;
 using Spotify.Application.Admin.Profile;
@@ -20,6 +21,10 @@ builder.Services.AddAutoMapper(typeof(UsuarioAdminProfile).Assembly);
 builder.Services.AddScoped<UsuarioAdminRepository>();
 builder.Services.AddScoped<UsuarioAdminService>();
 
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+}).AddCookie();
 
 var app = builder.Build();
 
@@ -35,6 +40,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

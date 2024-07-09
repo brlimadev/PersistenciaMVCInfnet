@@ -2,12 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Spotify.Application.Admin;
 using Spotify.Application.Admin.Dto;
 
 namespace SpotifyLike.Admin.Controllers
 {
+    [Authorize]
+
     public class UserController : Controller
     {
         private UsuarioAdminService usuarioAdminService;
@@ -23,12 +26,14 @@ namespace SpotifyLike.Admin.Controllers
             return View(result);
         }
 
+        [AllowAnonymous]
         public IActionResult Criar()
         {
             return View();
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public IActionResult Salvar(UsuarioAdminDto dto)
         {
             if (ModelState.IsValid == false)

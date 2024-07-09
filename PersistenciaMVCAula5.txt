@@ -1,2 +1,8 @@
 Aula 05 - Persistencia MVCs
 
+14:00
+Criar um usuario pela interface administrativa
+
+
+15:00
+Criar no projeto admin um controller chamado AccountController.cs
